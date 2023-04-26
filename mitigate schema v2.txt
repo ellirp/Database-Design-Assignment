@@ -1,0 +1,7 @@
+To mitigate the schema to v2
+In v1 the app only allowed users to create a single playlist and
+no information was stored of the account type. To mitigate the schema to v2 a
+new table called "user_playlists" would link the user with their playlists.
+And a new field would be added called "account_type" which would be added under
+the table users. Holding options like free, standard, and premium. Nothing too
+difficult but adds a lot to the app.
